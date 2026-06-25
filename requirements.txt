@@ -1,0 +1,16 @@
+# Спайк turn detection — инференс обеих моделей (torch не нужен, всё через ONNX)
+numpy==2.4.6
+onnxruntime==1.27.0
+transformers==5.12.1
+huggingface_hub==1.21.0
+jinja2==3.1.6           # для chat template LiveKit-модели
+
+# для аудио-модели (Smart Turn)
+librosa==0.11.0
+
+# опционально — генерация тестовой русской речи
+gTTS==2.5.4
+soundfile==0.14.0
+
+# для пересборки ноутбуков из _build_notebooks.py
+nbformat==5.10.4
